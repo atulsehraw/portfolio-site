@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div id="header">
+       <div class="container">
+        <nav>
+            <h1><span id="font">ATUL KUMAR</span> </h1>
+            <ul id="sidemenu">
+                
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()">Close</i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()">Menu</i>
+        </nav>
+        <div class="header-text">
+            <p >Full Stack  Web Developer</p>
+            <h1>Hi, I'm <span>Atul Kumar</span><br>From Ghaziabad</h1>
+        </div>
+
+       </div>
+    </div>
+    <!---about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="image/AA.png">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title" id="ab">About me</h1>
+            <p> Hii  I am Atul kumar from Sadarpur ghaziabad.And I have completed my BCA From
+                INMANTEC colllege and I am pursuing in MCA and I have good knowledge about Full
+                Stack web development. 
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+        <div class="tab-contents active-tab" id ="skills">
+            <ul>
+                <li><span>Frontend Development</span><br>HTML<br>CSS<br>BOOTSTRAP<br>
+                JAVASRIPT<br></li>
+                <li><span>Backend Development</span><br>C Programming<br>JAVA<br>AJAX<br>
+                DBMS<br>SQL</li>    
+            </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+            <h3>I am a fresher but I have completed three projects</h3>
+            <ul>
+                <li><span>E-commerce website</span><br>I had made this project in BCA.
+               </li>
+               <li><span>job portal website </span><br>I had made this project with my two college friends in MCA.
+               </li>
+               <li><span>Portfolio website</span><br>I had made this website in last month.
+                <li><span>Travel Agency website</span><br>This Website is in Devloping Phase.
+    </li>
+                
+        </div>
+
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2021-2023</span><br>MCA Is Pursuing From HI-TECH College
+          </li>
+                <li><span>2017-2020</span><br>BCA From INMANTEC College.
+                </li> 
+                <li><span>2017</span><br>12th(CBSE) From DDPS School In Govindpuram.
+                </li>  
+                <li><span>2015</span><br>10th(CBSE) From Bhagirath public School In Govindpuram.
+                </li>  
+            </ul>
+        </div>
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-----------------------------services----------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title" id="se">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>A web designer works on the appearance,layout,and in some cases,
+                        content of a website.Appearance, for instance,relate to the colors,font and images.
+                        Layout refers to how information is structured. 
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Full stack development</h2>
+                    <p> A full-stack developer are expert in both the frontend and backend;so,the full-stackof technology
+                        that makes up a website.They are proficient in both frontend and backend language and 
+                        frameworks, as well as in server,network and hosting environments.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Responsive Website</h2>
+                    <p>A responsive website is an approach that ensure all the pages of the website
+                        look,work and feel perfectly on any device.Whether it is a tiny old cell phone
+                        with a screen width of 320px, a modern device with 7 inches screen.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+
+                </div>
+                </div>
+                <!----------------portfolio-------------------->
+                <div id="portfolio">
+                    <div class="container">
+                        <h1 class="sub-title" id="po">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                        <img src="image/work-1.png">
+                        <div class="layer">
+                            <h3>Job Portal Website</h3>
+                            <p> The website connect you the telented people around the world.you 
+                                can search any job.
+                                
+                            </p>
+                        </div>
+                </div>
+               
+            <div class="work">
+                <img src="image/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping Website</h3>
+                    <p> The Website connect you the telented people around the world.
+                        you can search any things.
+                    </p>
+                </div>
+        </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+            </div>
+            </div>
+            
+<!------------------------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <div class="sub-title" id="co">Contact Me</div>
+                <p >Email Id -:   <a  class="con"href="atulsehrawat5@gmail.com" >atulsehrawat5@gmail.com</a></p>
+                <p >Mobile -:  <a  class="con"href="8076014982">8076014982</a> </p>
+                <p>Linkedin Id -:  <a class="con" href="http://www.linedin.com/in/atul-kumar-868a401ab">http://www.linedin.com/in/atul-kumar-868a401ab</a> </p>
+                <p >Facebook Id -:  <a class="con" href="https://www.Facebook.com/atul.sherawt">https://www.Facebook.com/atul.sherawt</a> </p>
+
+                <a href="image/Atul-Kumar.pdf" download class="btn btn2">Download CV</a>
+            </div>
+        
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="your Email" required>
+                <textarea name ="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="Submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        </div>
+    <div class="copyright">
+        <p> Copyright,Made with by Atul kumar</p>
+
+    </div>
+    </div>
+</div>
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+               for(tablink of tablinks){
+                   tablink.classList.remove("active-link");
+               }
+               for(tabcontent of tabcontents){
+                   tabcontent.classList.remove("active-tab");
+               }
+               event.currentTarget.classList.add("active-link"); 
+               document.getElementById(tabname).classList.add("active-tab")      
+            
+            }
+               
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+        
+    </script>
+   
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwABmLYfYvvOtpytF0wgvFBIz2hG9YxGmaEEYc1DAFvHJIhlVSiIQud46eCHU0IXoNr/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    
+    </body>
+</html>
